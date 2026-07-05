@@ -10,17 +10,15 @@ NIDAN is an end-to-end machine learning application that predicts the risk of in
 
 ## Live Demo
 
-**Streamlit Application:**  
-https://fgtb7i5ssbbzidviiqhmy8.streamlit.app/
+**Streamlit Application**
 
-**GitHub Repository:**  
-https://github.com/seerat-gh/NIDAN
+https://fgtb7i5ssbbzidviiqhmy8.streamlit.app/
 
 ---
 
 ## Project Overview
 
-The objective of this project is to predict the probability of in-hospital mortality using patient clinical information. Multiple machine learning algorithms were trained and evaluated to identify the best-performing model. The selected model was then deployed using Streamlit, providing a simple and interactive interface for making predictions.
+The objective of this project is to predict the probability of in-hospital mortality using patient clinical information. Multiple machine learning algorithms were trained, evaluated, and compared to identify the best-performing model. The selected model was then deployed using Streamlit, providing a simple and interactive interface for making predictions.
 
 ---
 
@@ -107,7 +105,6 @@ NIDAN/
 │       └── About.py
 │
 ├── data/
-│
 ├── images/
 │   ├── home.png
 │   ├── prediction.png
@@ -116,20 +113,11 @@ NIDAN/
 │
 ├── models/
 │   ├── best_model.pkl
+│   └── logistic_regression.pkl
 │
 ├── reports/
-│   └── model_comparison.csv
 │
 ├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── eda.py
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── predict.py
-│   └── utils.py
 │
 ├── README.md
 ├── requirements.txt
@@ -183,7 +171,7 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-Start the Streamlit application.
+Launch the Streamlit application.
 
 ```bash
 streamlit run app/app.py
@@ -201,7 +189,7 @@ streamlit run app/app.py
 6. Evaluate and compare model performance.
 7. Select the best-performing model.
 8. Predict in-hospital mortality.
-9. Deploy the application using Streamlit Community Cloud.
+9. Deploy the application using Streamlit.
 
 ---
 
@@ -211,7 +199,7 @@ The application enables users to:
 
 - Upload patient datasets
 - Predict in-hospital mortality
-- Compare machine learning model performance
+- Compare model performance
 - View prediction summaries
 - Download prediction results
 
@@ -223,7 +211,7 @@ The application enables users to:
 - Explainable AI using SHAP and LIME
 - Deep learning-based prediction models
 - REST API integration
-- Docker containerization
+- Docker support
 - Cloud deployment
 - Real-time hospital dashboard
 - Integration with Electronic Health Record (EHR) systems
